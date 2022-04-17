@@ -67,8 +67,8 @@
 					<div class="gird-title">
 						<h3>Manager Music</h3>
 						<ul>
-							<li><a href="music.php">Music</a></li>
-							<li style="background-color: #cfcfcf"><a style="color: black" href="singer.php">Singer</a></li>
+							<li><a href="music.php">Product</a></li>
+							<li style="background-color: #cfcfcf"><a style="color: black" href="singer.php">Author</a></li>
 							<li><a href="genre.php">Genre</a></li>
 						</ul>
 						<h3>Manager User</h3>
@@ -82,7 +82,7 @@
 					<div class="table-singer">
 						<table style="width: 600px" class="gird-table">
 							<tr style="background-color: gray; text-align: center">
-								<th style="width: 20%">Singer</th>
+								<th style="width: 20%">Author</th>
 								<th style="">Description</th>
 								<th>Edit</th>
 								<th>Delete</th>

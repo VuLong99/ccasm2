@@ -232,14 +232,10 @@ session_start();
 									<div class='box-info'>
 										<div class='info-music'>
 											<a href='detail.php?id=<?php echo $musicID ?>' ><h5><?php echo $musicName ?></h5></a>
-											<a href=''><h7><?php echo $singerName ?></h7></a>
+											
+											<h6><?php echo $musicPrice?></h6>
 										</div>
-										<div class='audio-file'>
-											<audio controls controlsList="nodownload" ontimeupdate="myaudio(this)"><source src="audio/<?php echo $musicAudio ?>" type="audio/mpeg">
-
-											</audio>
-
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -250,67 +246,7 @@ session_start();
 					
 				</div>
 			</div>
-			<div class="col-3 top-music">
-				<div class="group-box">
-					<div class="title-topms">
-						<a style="font-weight: bold" href="">Trending</a>
-					</div>
-					<div class="box-topmusic">
-						
-						<div class="imager-trmusic">
-							<img src="image/1.jpg
-							" alt="">
-						</div>
-						<div class="info-trmusic">
-							<h6>Thunder</h6>
-						</div>					
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="title">
-			<h1>Hot Singer</h1>
-		</div>
-	</div>
-	<div class="hot-singer container">
-		<div class="row">
-			<div class="col-3">
-				
-				<img src="https://i1.sndcdn.com/artworks-000213572138-e0diu8-t500x500.jpg" alt="">
-				
-				<div class="singer-name">
-					<h5>Thái Hoàng</h5>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="singer-image">
-					<img src="https://pbs.twimg.com/profile_images/1464164070047862784/FCqkIsM3_400x400.jpg" alt="">
-				</div>
-				<div class="singer-name">
-					<h5>Alan Walker</h5>		
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="singer-image">
-					<img src="https://djcloudvn.sgp1.digitaloceanspaces.com/data/resource_icons/1/1779.jpg?1625026794" alt="">
-				</div>
-				<div class="singer-name">
-					<h5>ARS</h5>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="singer-image">
-					<img src="https://yt3.ggpht.com/ytc/AKedOLQyRFhSmB12AM3-yzDW_rhwSi3Q0qG3pjnh0UTz=s900-c-k-c0x00ffffff-no-rj" alt="">
-				</div>
-				<div class="singer-name">
-					<h5>Tilo</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer>
+		
 		<?php include("element/footer.php"); ?>
 	</footer>
 	<script type="text/javascript">

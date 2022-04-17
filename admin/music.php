@@ -95,8 +95,8 @@ while($row=mysqli_fetch_array($result)){
 					<div class="gird-title">
 						<h3>Manager Music</h3>
 						<ul>
-							<li style="background-color: #cfcfcf"><a style="color: black" href="music.php">Music</a></li>
-							<li><a href="singer.php">Singer</a></li>
+							<li style="background-color: #cfcfcf"><a style="color: black" href="music.php">Product</a></li>
+							<li><a href="singer.php">Author</a></li>
 							<li><a href="genre.php">Genre</a></li>
 						</ul>
 						<h3>Manager User</h3>
@@ -109,11 +109,11 @@ while($row=mysqli_fetch_array($result)){
 					<div class="table-mussic">
 						<table class="gird-table">
 							<tr style="height: 30px;background-color: gray">
-								<th style="width:10%">Name Music</th>
-								<th style="width:20%">Mussic Audio</th>
+								<th style="width:10%">Name Product</th>
+								
 								<th style="5%">Price</th>
 								<th style="width: 10%">Image</th>
-								<th style="width: ">Singer</th>
+								<th style="width: ">Author</th>
 								<th>Genre</th>
 								<th>Edit</th>
 								<th style="5%">Delete</th>
@@ -137,10 +137,7 @@ while($row=mysqli_fetch_array($result)){
 								?>
 								<tr>
 									<td><?php echo $musicName ?></td>
-									<td><audio controls>
-										<source src="../audio/<?php echo $musicAudio ?>" type="audio/mpeg">
-										</audio>
-									</td>
+									
 
 									<td><?php echo $musicPrice ?></td>
 									<td><img style='width: 100px;height: 100px' src="../image/<?php echo $musicImage ?>" alt=''></td>

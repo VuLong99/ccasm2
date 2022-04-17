@@ -107,7 +107,7 @@ if(isset($_POST['insert_music'])){
 						<form action="" method="POST" enctype="multipart/form-data">
 							<div class="row">
 								<div class="form-group col-sm-2">
-									<label for="qty" class="col-sm-12 control-label">Music Name:</label>
+									<label for="qty" class="col-sm-12 control-label">Product Name:</label>
 
 								</div> <!-- form-group // -->
 								<div class="col-sm-3">
@@ -116,7 +116,7 @@ if(isset($_POST['insert_music'])){
 							</div>
 							<div class="row">	
 								<div class="form-group col-sm-2">
-									<label for="tech" class="col-sm-12 control-label">Singer:</label>
+									<label for="tech" class="col-sm-12 control-label">Author:</label>
 
 								</div> <!-- form-group // -->
 								<div class="col-sm-3">
@@ -144,16 +144,7 @@ if(isset($_POST['insert_music'])){
 								</div>
 							</div>
 
-							<div style="padding-bottom: 10px" class="row">
-								<div class="form-group col-sm-2">
-									<label for="qty" class="col-sm-3 control-label">lyric:</label>
-
-								</div> <!-- form-group // -->
-								<div class="col-sm-3">
-									
-									<textarea class="form-control" name="music_lyric" id="" cols="30" rows="5"></textarea>
-								</div>
-							</div>
+							
 							<div class="row">
 								<div class="form-group col-sm-2">
 									<label for="qty" class=" col-sm-12 control-label">Image:</label>
@@ -164,16 +155,7 @@ if(isset($_POST['insert_music'])){
 									<input type="file" name="music_image">
 								</div>
 							</div>
-							<div class="row">
-								<div class="form-group col-sm-2">
-									<label for="qty" class=" col-sm-12 control-label">Audio:</label>
-
-								</div> <!-- form-group // -->
-
-								<div class="col-sm-3">
-									<input type="file" name="music_audio">
-								</div>
-							</div>
+							
 							<div class="row">
 								<div class="form-group col-sm-2">
 									<label for="qty" class="col-sm-12 control-label">Price:</label>
@@ -187,7 +169,7 @@ if(isset($_POST['insert_music'])){
 							<div class="form-group">
 								<div class="col-sm-offset-3 col-sm-9">
 									<button type="submit" class="btn btn-dark" name="insert_music">Completed</button>
-									<button href="index.php">Home</button>
+									
 								</div>
 							</div>
 						</form>

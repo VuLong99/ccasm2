@@ -77,10 +77,10 @@ if(isset($_POST['insert_genre'])){
 			<div style="min-height: 500px" class="row">
 				<div class="col-2">
 					<div class="gird-title">
-						<h3>Manager Music</h3>
+						<h3>Manager Product</h3>
 						<ul>
-							<li><a href="music.php">Music</a></li>
-							<li><a href="singer.php">Singer</a></li>
+							<li><a href="music.php">Product</a></li>
+							<li><a href="singer.php">Author</a></li>
 							<li style="background-color: #cfcfcf"><a style="color: black" href="genre.php">Genre</a></li>
 						</ul>
 						<h3>Manager User</h3>

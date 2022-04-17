@@ -65,8 +65,8 @@ else{
 					<div class="gird-title">
 						<h3>Manager Music</h3>
 						<ul>
-							<li><a href="music.php">Music</a></li>
-							<li><a href="singer.php">Singer</a></li>
+							<li><a href="music.php">Product</a></li>
+							<li><a href="singer.php">Author</a></li>
 							<li><a href="genre.php">Genre</a></li>
 						</ul>
 						<h3>Manager User</h3>
