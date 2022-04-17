@@ -62,10 +62,10 @@ if(isset($_POST['insert_singer'])){
 			<div style="min-height: 500px" class="row">
 				<div class="col-2">
 					<div class="gird-title">
-						<h3>Manager Music</h3>
+						<h3>Manager Product</h3>
 						<ul>
-							<li><a href="music.php">Music</a></li>
-							<li style="background-color: #cfcfcf"><a style="color: black" href="singer.php">Singer</a></li>
+							<li><a href="music.php">Product</a></li>
+							<li style="background-color: #cfcfcf"><a style="color: black" href="singer.php">Author</a></li>
 							<li><a href="genre.php">Genre</a></li>
 						</ul>
 						<h3>Manager User</h3>
@@ -79,7 +79,7 @@ if(isset($_POST['insert_singer'])){
 						<form action="" method="POST" enctype="multipart/form-data">
 							<div class="row">
 								<div class="form-group col-sm-2">
-									<label for="qty" class="col-sm-12 control-label">Singer Name:</label>
+									<label for="qty" class="col-sm-12 control-label">Author Name:</label>
 
 								</div> <!-- form-group // -->
 								<div class="col-sm-3">

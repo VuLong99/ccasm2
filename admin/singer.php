@@ -65,7 +65,7 @@
 			<div style="min-height: 500px" class="row">
 				<div class="col-2">
 					<div class="gird-title">
-						<h3>Manager Music</h3>
+						<h3>Manager Product</h3>
 						<ul>
 							<li><a href="music.php">Product</a></li>
 							<li style="background-color: #cfcfcf"><a style="color: black" href="singer.php">Author</a></li>
@@ -123,7 +123,7 @@
 					</div>
 					<hr>
 					<div class="btn-addsinger">
-						<a href="add_singer.php">Add Singer</a>
+						<a href="add_singer.php">Add Author</a>
 					</div>
 				</div>
 			</div>

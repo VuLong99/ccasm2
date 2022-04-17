@@ -74,7 +74,7 @@
 			<div style="min-height: 500px" class="row">
 				<div class="col-2">
 					<div class="gird-title">
-						<h3>Manager Music</h3>
+						<h3>Manager Product</h3>
 						<ul>
 							<li><a href="music.php">Product</a></li>
 							<li><a href="singer.php">Author</a></li>

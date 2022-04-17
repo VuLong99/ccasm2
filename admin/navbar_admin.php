@@ -104,6 +104,7 @@
 				<?php 
 				if (isset($_SESSION["userName"])) { ?>
 					<li class="btn-login nav-item active dropdown">
+						<a class="nav-link" href="../index.php">Back home<span class="glyphicon glyphicon-home sr-only">(current)</span></a>
 						<a class="nav-link" href="">Hello ADMIN<span class="glyphicon glyphicon-home sr-only">(current)</span></a>
 						<div class="dropdown-content">
 							<a class="dropdown-item" href="../logout.php">Logout</a>

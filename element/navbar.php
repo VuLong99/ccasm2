@@ -131,9 +131,7 @@ session_start();
 
 
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#"> All <span class="glyphicon glyphicon-home sr-only">(current)</span></a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" href="admin/admin.php"> <span class="glyphicon glyphicon-user"></span>Management all</a>
 					</li>

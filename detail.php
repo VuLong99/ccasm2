@@ -87,14 +87,14 @@ while($row=mysqli_fetch_assoc($result)){
 				<div class="col-5">
 					<div class="music-info">
 						<div>
-							<h5>Name music: <?php echo "$musicName" ?></h5>
-							<h5>Singer: <?php echo $singerName ?></h5>
+							<h5>Name product: <?php echo "$musicName" ?></h5>
+							<h5>Author: <?php echo $singerName ?></h5>
 							<h5>Genre: <?php echo $genreName ?></h5>
 							<h5>Price: <?php echo $musicPrice ?></h5>
 
 						</div>
 						<div class="btn-addtocard">
-							<a href="cart.php?id=<?php echo $musicID ?>">Add to card</a>
+							<a href="view_cart.php?id=<?php echo $musicID ?>">Add to card</a>
 						</div>
 					</div>
 				</div>

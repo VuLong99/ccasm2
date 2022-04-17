@@ -166,7 +166,7 @@ while($row=mysqli_fetch_array($result)){
 					</div>
 					<div class="btn-addmusic">
 						<a href="add_music.php?page_layout=add
-						_music">Add music</a>
+						_music">Add Product</a>
 					</div>
 				</div>
 			</div>
